@@ -9,7 +9,7 @@ from PIL import Image
 
 def internet_on():
     try:
-        response=urllib2.urlopen('http://www.baidu.com', timeout=1)
+        response=urllib2.urlopen('http://www.bing.com', timeout=1)
         return True
     except urllib2.URLError as err: pass
     return False
